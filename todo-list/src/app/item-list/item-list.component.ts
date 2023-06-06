@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Item } from '../core/models/item';
 
 @Component({
   selector: 'app-item-list',
@@ -7,10 +8,23 @@ import { Component } from '@angular/core';
 })
 export class ItemListComponent {
 
-  itemList = [
-    'Dar banho no peixe',
-    'levar a vó no karate',
-    'enxugar o gelo'
+  itemList: Item[] = [
+    {
+      title: 'Dar banho no peixe',
+      ready: false
+    },
+    {
+      title: 'levar a vó no karate',
+      ready: false
+    },
+    {
+      title: 'enxugar o gelo',
+      ready: true
+    }
   ]
+
+  changeItemReady(item: Item): void {
+    item.ready = !item.ready;
+  }
 
 }

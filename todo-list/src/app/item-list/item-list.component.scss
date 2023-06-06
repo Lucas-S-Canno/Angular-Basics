@@ -1,0 +1,29 @@
+.list-wrapper {
+  margin: 0 auto;
+  padding: 15px 30px;
+  max-width: 900px;
+}
+
+.item {
+  background-color: rgb(249, 252, 255);
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.item p {
+  margin-left: 15px;
+}
+
+.checked-icons {
+  display: flex;
+}
+
+.checked-icons img {
+  width: 20px;
+}
+
+.checked-icons img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+}

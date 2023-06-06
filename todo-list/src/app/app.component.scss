@@ -1,4 +1,25 @@
-* {
-  margin: 0;
-  padding: 0
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px 0;
+}
+
+.title-wrapper h1 {
+  font-family: 'Slackside One', 'comic-sans';
+  font-size: 3rem;
+}
+
+.text_input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.page-body {
+  background-color: aliceblue;
+  width: 100vw;
+  min-height: 100vh;
 }
