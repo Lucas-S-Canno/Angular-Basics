@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-  ![GitHub Stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+  <img src="https://img.shields.io/github/stars/camilafernanda?style=social"/>
 </p>
 
 <h4 align="center"> 
@@ -25,7 +25,7 @@
   Repositório simples para demonstrar e ensinar o basico do angular com um projeto simples utilizando do basico do Angular para construir uma SPA (Single Page Application), de uma ToDo List.
 </p>
 
-#🔨 Funcionalidades do projeto
+# 🔨 Funcionalidades do projeto
 
     Funcionalidade 1: Resgatar uma lista de tarefas de uma API e usar no Front com uma aplicação em angular.
     Funcionalidade 2: Alterar o estado das tarefas para Concluidas ou Em Andamento e salvar essa alteraçõa na API.
