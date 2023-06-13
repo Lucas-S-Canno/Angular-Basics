@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  @Output()
+  emitString = new EventEmitter<string>;
+
   todo!: string;
+
+  emitText() {
+    this.emitString.emit(this.todo.trim());
+  }
 
 }

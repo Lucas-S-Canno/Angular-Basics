@@ -1,5 +1,4 @@
 <div class="text-box">
   <input type="text" [(ngModel)]="todo">
-  <button>Salvar</button>
+  <button (click)="emitText()">Salvar</button>
 </div>
-<p>{{todo}}</p>

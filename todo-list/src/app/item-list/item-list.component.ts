@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Item } from '../core/models/item';
 
 @Component({
@@ -7,24 +7,27 @@ import { Item } from '../core/models/item';
   styleUrls: ['./item-list.component.scss']
 })
 export class ItemListComponent {
+  @Output()
+  itemUpdate = new EventEmitter<Item>;
 
-  itemList: Item[] = [
-    {
-      title: 'Dar banho no peixe',
-      ready: false
-    },
-    {
-      title: 'levar a vó no karate',
-      ready: false
-    },
-    {
-      title: 'enxugar o gelo',
-      ready: true
-    }
-  ]
+  @Output()
+  idToDelete = new EventEmitter<number>;
 
-  changeItemReady(item: Item): void {
+  @Input()
+  itemList: Item[] = []
+
+  changeItemReady(item: Item): Item {
     item.ready = !item.ready;
+    return item;
+  }
+
+  emitItem(item: Item): void {
+    item = this.changeItemReady(item);
+    this.itemUpdate.emit(item);
+  }
+
+  emitId(item: Item): void {
+    this.idToDelete.emit(item.id);
   }
 
 }

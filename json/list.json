@@ -1,0 +1,24 @@
+{
+  "todo-list": [
+    {
+      "id": 1,
+      "title": "Comprar ovos",
+      "ready": false
+    },
+    {
+      "id": 2,
+      "title": "Comprar Refrigerante",
+      "ready": true
+    },
+    {
+      "id": 3,
+      "title": "Comprar Arroz",
+      "ready": true
+    },
+    {
+      "id": 5,
+      "title": "Comprar Frango",
+      "ready": false
+    }
+  ]
+}

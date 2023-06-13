@@ -3,9 +3,14 @@
 </div>
 
 <div class="text_input-wrapper">
-  <app-header></app-header>
+  <app-header (emitString)="createItem($event)"></app-header>
 </div>
 
 <div class="page-body">
-  <app-item-list></app-item-list>
+  <app-item-list
+  [itemList]="itemList"
+  (itemUpdate)="updateItem($event)"
+  (idToDelete)="removeItem($event)"
+  ></app-item-list>
+
 </div>
