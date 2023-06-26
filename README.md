@@ -16,10 +16,11 @@
 
 # Descrição do Projeto
 
-<p align="left">
+<p align="left" id="descrição-do-projeto">
   Repositório simples para demonstrar e ensinar o basico do angular com um projeto simples utilizando do basico do Angular para construir uma SPA (Single Page Application), de uma ToDo List.
 </p>
 
+<p id="funcionalidades-e-demonstração-da-aplicação"></p>
 # 🔨 Funcionalidades do projeto
 
     Funcionalidade 1: Resgatar uma lista de tarefas de uma API e usar no Front com uma aplicação em angular.
@@ -30,3 +31,40 @@
 <h4 align="center"> 
   :construction:  Fazer um gif do funcionamento e postar  :construction:
 </h4>
+
+<p id="acesso-ao-projeto"></p>
+# Acesso ao projeto
+É um projeto bem simples, foi usado somente o Angular 16 para desenvolver toda a parte do front-end, e para o back-end, foi usado uma api fake criada a partir de um json e rodada com json-server.
+Para rodar, primeiramente temos que instalar o Angular.
+>Para isso garanta de ter  node instalado em sua ultima versão, através do link: [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
+>E então rodar o comando no terminal:
+```
+npm install -g @angular/cli
+```
+>Depois instale o json-server
+```
+npm install -g json-server
+```
+**se der algum erro nessas instalações, garanta que o node.js foi instalado na ultima versão, e tente abrir o CMD como ADM**
+
+>E então clone o projeto, e dentro da pasta "todo-list", abra o terminal como ADM e rode:
+```
+npm install
+```
+ele ira instalar todas as dependencias  do angular
+
+>Após instalar as dependencias necessárias, para rodar é simples:
+```
+->Dentro da pasta todo-list rode o comando:
+ng serve
+
+->E dentro da pasta json rode o comando:
+json-server --watch list.json
+
+->Abra o browser e entre no link http://localhost:4200 para ver a aplicação funcionar
+```
+
+<p id="tecnologias-utilizadas"></p>
+# Técnologias Utilizadas
+* Angular 16: [documentação](https://angular.io/docs)
+* json-server: [documentação](https://www.npmjs.com/package/json-server#getting-started)
