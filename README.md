@@ -32,17 +32,23 @@
 </h4>
 
 <h3 id="acesso-ao-projeto">Acesso ao Projeto</h3> 
-É um projeto bem simples, foi usado somente o Angular 16 para desenvolver toda a parte do front-end, e para o back-end, foi usado uma api fake criada a partir de um json e rodada com json-server.
-Para rodar, primeiramente temos que instalar o Angular.
->Para isso garanta de ter  node instalado em sua ultima versão, através do link: [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
+<p>É um projeto bem simples, foi usado somente o Angular 16 para desenvolver toda a parte do front-end, e para o back-end, foi usado uma api fake criada a partir de um json e rodada com json-server.</p>
+<p>Para rodar, primeiramente temos que instalar o Angular.</p>
+
+>Para isso garanta de ter  node instalado em sua ultima versão, através do link:
+* [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
+  
 >E então rodar o comando no terminal:
 ```
 npm install -g @angular/cli
 ```
+
 >Depois instale o json-server
+
 ```
 npm install -g json-server
 ```
+
 **se der algum erro nessas instalações, garanta que o node.js foi instalado na ultima versão, e tente abrir o CMD como ADM**
 
 >E então clone o projeto, e dentro da pasta "todo-list", abra o terminal como ADM e rode:
@@ -62,7 +68,7 @@ json-server --watch list.json
 ->Abra o browser e entre no link http://localhost:4200 para ver a aplicação funcionar
 ```
 
-<p id="tecnologias-utilizadas"></p>
-# Técnologias Utilizadas
+<h3 id="tecnologias-utilizadas">Técnologias Utilizadas</h3>
+
 * Angular 16: [documentação](https://angular.io/docs)
 * json-server: [documentação](https://www.npmjs.com/package/json-server#getting-started)
