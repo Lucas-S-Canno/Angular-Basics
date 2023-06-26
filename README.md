@@ -39,8 +39,6 @@
 >Para isso garanta de ter  node instalado em sua ultima versão, através do link:
 * [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
   
-![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/55eca5ba-8eab-441f-800d-1fd51274a8b7)
-  
 >E então rodar o comando no terminal:
 ```
 npm install -g @angular/cli
@@ -77,7 +75,7 @@ json-server --watch list.json
 * json-server: [documentação](https://www.npmjs.com/package/json-server#getting-started)
 
 
-<h1 id="indice-tutorial>Tutorial</h1>
+<h1 id="indice-tutorial">Tutorial</h1>
   
 * [Icones usados](#icones)
 
@@ -87,5 +85,45 @@ json-server --watch list.json
 * [Não concluído](https://www.flaticon.com/br/icone-gratis/cancelar_190406?term=cancel&page=1&position=5&origin=search&related_id=190406)
 * [Concluído](https://www.flaticon.com/br/icone-gratis/verificado_169780?term=sucesso&page=1&position=3&origin=search&related_id=169780)
 
+<h3 id="criar-novo-projeto">Criar um Novo Projeto</h3>
+<p>Para criar o projeto é extremamente simples, use o comando:
   
+```
+“ng new nome-do-app”
+```
+
+Após isso, perguntará primeiro se você quer que ele adicione o Angular Routing (não usaremos nesse projeto), depois irá perguntar qual o tipo de folha de estilos você quer usar (no exemplo foi utilizado SCSS), após selecionar o tipo de folha de estilos, é só esperar a criação do projeto terminar.</p>
+
+<h3 id="folder-and-files">Arquivos e Pastas</h3>
+<p>Logo que o projeto for criado no local desejado, ele terá estes arquivos (excluindo o .vscode e o README.md que são arquivos do meu vs code e do repositório)</p>
+
+> node_modules: pasta contendo as dependências do projeto, geralmente incluído no arquivo .gitignore e não é subido para o repositório.
+
+> index.html: arquivo base  padrão HTML do projeto.
+
+> styles.scss: arquivo de SCSS global do projeto.
+
+> package-lock.json: arquivo contendo as indicações das dependências usadas no projeto, assim quem baixar o projeto consegue instalar as dependências utilizando o comando “npm install”
+
+> app.component.html: é a pagina principal do projeto, é a partir dela que os componentes são iniciados.
+O html é a parte visual do seu componente, basicamente ele é um código comum  em HTML, com a diferença de que não é necessário todo o início do html.
+
+> app.component.scss: é a folha de estilos ligada o template app.component.html
+É um SCSS comum.
+
+> app.component.ts: É a parte, que desenvolve o código e a parte lógica do componente.
+É nele que temos a maior diferença de um TS comum.
+```
+  * import: são as importações de serviços, pipes, e outros arquivos que serão usados dentro do TS
+
+  * @Component()
+    -> selector: é o nome como o componente será chamado no html de outros componentes
+    -> templateUrl: o caminho do html que será usado no template do componente 
+obs: tbm é possivel usar só “template” e fazer o html dentro do arquivo TS.
+    -> styleUrl: o caminho da folha de estilos que será usada como SCSS do componente
+
+  * export class: o nome da class do TS, dentro dessa classe que teremos nossos métodos, variaveis e etc
+```
+
+
 
