@@ -13,10 +13,11 @@
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Indice do tutorial](#indice-tutorial)
 
-# Descrição do Projeto
+<h1 id="descrição-do-projeto">Descrição do Projeto</h1>
 
-<p align="left" id="descrição-do-projeto">
+<p align="left">
   Repositório simples para demonstrar e ensinar o basico do angular com um projeto simples utilizando do basico do Angular para construir uma SPA (Single Page Application), de uma ToDo List.
 </p>
 
@@ -37,6 +38,7 @@
 
 >Para isso garanta de ter  node instalado em sua ultima versão, através do link:
 * [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
+  ![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/55eca5ba-8eab-441f-800d-1fd51274a8b7)
   
 >E então rodar o comando no terminal:
 ```
@@ -72,3 +74,17 @@ json-server --watch list.json
 
 * Angular 16: [documentação](https://angular.io/docs)
 * json-server: [documentação](https://www.npmjs.com/package/json-server#getting-started)
+
+
+<h1 id="indice-tutorial>Tutorial</h1>
+  
+* [Icones usados](#icones)
+
+<h3 id="icones">Icones</h3>
+
+* [Delete](https://www.flaticon.com/br/icone-gratis/remover-do-carrinho_6815040)
+* [Não concluído](https://www.flaticon.com/br/icone-gratis/cancelar_190406?term=cancel&page=1&position=5&origin=search&related_id=190406)
+* [Concluído](https://www.flaticon.com/br/icone-gratis/verificado_169780?term=sucesso&page=1&position=3&origin=search&related_id=169780)
+
+  
+
