@@ -38,7 +38,8 @@
 
 >Para isso garanta de ter  node instalado em sua ultima versão, através do link:
 * [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
-  ![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/55eca5ba-8eab-441f-800d-1fd51274a8b7)
+  
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/55eca5ba-8eab-441f-800d-1fd51274a8b7)
   
 >E então rodar o comando no terminal:
 ```
