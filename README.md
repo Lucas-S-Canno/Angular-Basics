@@ -20,8 +20,7 @@
   Repositório simples para demonstrar e ensinar o basico do angular com um projeto simples utilizando do basico do Angular para construir uma SPA (Single Page Application), de uma ToDo List.
 </p>
 
-<p id="funcionalidades-e-demonstração-da-aplicação"></p>
-# 🔨 Funcionalidades do projeto
+<h3 id="funcionalidades-e-demonstração-da-aplicação">🔨 Funcionalidades do projeto</h3>
 
     Funcionalidade 1: Resgatar uma lista de tarefas de uma API e usar no Front com uma aplicação em angular.
     Funcionalidade 2: Alterar o estado das tarefas para Concluidas ou Em Andamento e salvar essa alteraçõa na API.
@@ -32,8 +31,7 @@
   :construction:  Fazer um gif do funcionamento e postar  :construction:
 </h4>
 
-<p id="acesso-ao-projeto"></p>
-# Acesso ao projeto
+<h3 id="acesso-ao-projeto">Acesso ao Projeto</h3> 
 É um projeto bem simples, foi usado somente o Angular 16 para desenvolver toda a parte do front-end, e para o back-end, foi usado uma api fake criada a partir de um json e rodada com json-server.
 Para rodar, primeiramente temos que instalar o Angular.
 >Para isso garanta de ter  node instalado em sua ultima versão, através do link: [node.js](https://nodejs.org/en) (Procure usar a versão LTS)
