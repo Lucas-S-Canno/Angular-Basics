@@ -78,12 +78,24 @@ json-server --watch list.json
 <h1 id="indice-tutorial">Tutorial</h1>
   
 * [Icones usados](#icones)
+* [Criando um novo projeto](#get-started)
+* [Arquivos e pastas](#folders-and-files)
+* [Criando o primeiro componente](#first-component)
+* [Trabalhando com formulário](#ngmodel-and-forms)
+* [Trabalhando com listas](#ngfor)
+* [Criando interfaces](#creating-interfaces)
+* [Diretiva ngIf](#ngif)
+* [Trabalhando com CRUD](#working-with-api)
+
+<hr>
 
 <h3 id="icones">Icones</h3>
 
 * [Delete](https://www.flaticon.com/br/icone-gratis/remover-do-carrinho_6815040)
 * [Não concluído](https://www.flaticon.com/br/icone-gratis/cancelar_190406?term=cancel&page=1&position=5&origin=search&related_id=190406)
 * [Concluído](https://www.flaticon.com/br/icone-gratis/verificado_169780?term=sucesso&page=1&position=3&origin=search&related_id=169780)
+
+<hr>
 
 <h3 id="criar-novo-projeto">Criar um Novo Projeto</h3>
 <p>Para criar o projeto é extremamente simples, use o comando:
@@ -96,8 +108,9 @@ Após isso, perguntará primeiro se você quer que ele adicione o Angular Routin
 
 ![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/3864e1d7-55bc-416a-bd52-787622d47425)
 
+<hr>
 
-<h3 id="folder-and-files">Arquivos e Pastas</h3>
+<h3 id="get-started">Arquivos e Pastas</h3>
 <p>Logo que o projeto for criado no local desejado, ele terá estes arquivos (excluindo o .vscode e o README.md que são arquivos do meu vs code e do repositório)</p>
 
 > node_modules: pasta contendo as dependências do projeto, geralmente incluído no arquivo .gitignore e não é subido para o repositório.
@@ -140,7 +153,7 @@ obs: tbm é possivel usar só “template” e fazer o html dentro do arquivo TS
 
 <hr>
 
-<h3>Criando o primeiro componente</h3>
+<h3 id="first-component">Criando o primeiro componente</h3>
 
 <p>Para criar um componente usamos o comando “ng generate component nome-do-componente” ou para simplificar “ng g c nome-do-componente”.</p>
 
@@ -169,7 +182,7 @@ Como foi chamado no app.componente, aparecerá diretamente na primeira página e
 
 <hr>
 
-<h3>Usando ngModel e FormsModule:</h3>
+<h3 id="ngmodel-and-forms">Usando ngModel e FormsModule:</h3>
 
 <p>Agora vamos editar o componente de header para mostrar o que queremos, vamos fazer um campo de texto, somente um input e um botão por enquanto</p>
 
@@ -206,7 +219,7 @@ Como foi chamado no app.componente, aparecerá diretamente na primeira página e
 
 <hr>
 
-<h3>Trabalhando com listas:</h3>
+<h3 if="ngfor">Trabalhando com listas:</h3>
 
 <p>Para trabalhar com listas é simples, mas para fazer da maneira correta criei um componente chamado de item-list e irei chamar no app.componente como feito com o header, e irei criar um array simples de texto no .ts do novo componente.</p>
 
@@ -220,7 +233,7 @@ Como foi chamado no app.componente, aparecerá diretamente na primeira página e
 
 <hr>
 
-<h3>Criando interfaces:</h3>
+<h3 id="creating-interfaces">Criando interfaces:</h3>
 
 <p>Uma interface é um tipo de objeto que você cria, por exemplo, o básico para uma to-do list é saber o que tem que ser feito e se já está feito ou não.</p>
 <p>A interface é criada usando o comando “ng g interface nome-da-interface” no console</p>
@@ -249,7 +262,7 @@ Como foi chamado no app.componente, aparecerá diretamente na primeira página e
 
 <hr>
 
-<h3>Diretiva ngIf:</h3>
+<h3 id="ngif">Diretiva ngIf:</h3>
 <p>Para continuar vou dar uma estilizada no projeto para deixar mais bonito, mas nada que interfira no funcionamento da lista.</p>
 
 ![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/ef95dff3-a6c6-4366-94d3-40879fff1262)
@@ -284,7 +297,7 @@ Caso a propriedade ready do item seja true, mostre o checked, caso seja false, m
 
 <hr>
 
-<h3>Trabalhando com Crud:</h3>
+<h3 id="working-with-api">Trabalhando com Crud:</h3>
 
 <p>Para começar o CRUD precisamos de uma api, mas iremos usar uma api fake com json-server.</p>
 <p>Isso, instale o json-server com o comando “npm i -g json-server”.</p>
