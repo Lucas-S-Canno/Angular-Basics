@@ -94,6 +94,9 @@ json-server --watch list.json
 
 Após isso, perguntará primeiro se você quer que ele adicione o Angular Routing (não usaremos nesse projeto), depois irá perguntar qual o tipo de folha de estilos você quer usar (no exemplo foi utilizado SCSS), após selecionar o tipo de folha de estilos, é só esperar a criação do projeto terminar.</p>
 
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/3864e1d7-55bc-416a-bd52-787622d47425)
+
+
 <h3 id="folder-and-files">Arquivos e Pastas</h3>
 <p>Logo que o projeto for criado no local desejado, ele terá estes arquivos (excluindo o .vscode e o README.md que são arquivos do meu vs code e do repositório)</p>
 
