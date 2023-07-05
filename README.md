@@ -166,3 +166,40 @@ obs: tbm é possivel usar só “template” e fazer o html dentro do arquivo TS
 Como foi chamado no app.componente, aparecerá diretamente na primeira página e podemos ver que tudo está certo com ele aparecendo na tela</p>
 
 ![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/da79b625-7f15-4449-8b41-fd4954a62709)
+
+<hr>
+
+<h3>Usando ngModel e FormsModule:</h3>
+
+<p>Agora vamos editar o componente de header para mostrar o que queremos, vamos fazer um campo de texto, somente um input e um botão por enquanto</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/b095216d-1cd0-4d5b-9c62-850462e63846)
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/129c8935-b6a3-4583-aaa9-452e4047b7ef)
+
+<p>E como usamos esse input?</p>
+<p>No angular temos uma forma muito interessante de tratar com informações vinda de formulários, que é usando a diretiva ngModel, para usar temos que importar o FormsModule no Module que estamos usando, no caso app.module.ts</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/c09a245e-a0c4-43db-a568-2674c5dfe612)
+
+<p>E criamos uma variável no arquivo .ts do componente que iremos usar o input e chamamos essa variável no input.</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/3870e749-34d4-4f06-832d-a65b717d4b4a)
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/a34611d9-6604-488e-a73c-07b6e9305570)
+
+<p>Usar dessa forma chamamos de One-way Data Binding pois ligamos o valor da variável em um único caminho (do input a variável)</p>
+<p>Porém se formos no html do componente e colocar o seguinte código:</p>
+
+```
+<p>{{todo}}</p>
+```
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/8cede15c-6d8f-48f8-9ed6-9b580dba0ea4)
+
+<p>Criamos um Two-Way Data Binding pois ligamos em dois caminhos, do input para a variável e da variável para o paragrafo.</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/2c1afe2d-772f-4f46-bcf0-11bb4519c8e6)
+
+<p>E para testar é fácil, é ir no browser e digitar o que quiser no input e então deve aparecer na página o texto que você está digitando no input.</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/080b9e97-fdc4-488b-9b17-a77afd4f02b5)
