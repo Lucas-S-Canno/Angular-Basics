@@ -111,8 +111,12 @@ Após isso, perguntará primeiro se você quer que ele adicione o Angular Routin
 > app.component.html: é a pagina principal do projeto, é a partir dela que os componentes são iniciados.
 O html é a parte visual do seu componente, basicamente ele é um código comum  em HTML, com a diferença de que não é necessário todo o início do html.
 
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/554b369c-0071-4113-9826-415bc9e1c177)
+
 > app.component.scss: é a folha de estilos ligada o template app.component.html
 É um SCSS comum.
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/4a2a053b-3757-49ed-9b8d-a60fb80da9fe)
 
 > app.component.ts: É a parte, que desenvolve o código e a parte lógica do componente.
 É nele que temos a maior diferença de um TS comum.
@@ -128,5 +132,10 @@ obs: tbm é possivel usar só “template” e fazer o html dentro do arquivo TS
   * export class: o nome da class do TS, dentro dessa classe que teremos nossos métodos, variaveis e etc
 ```
 
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/2d5fbdc7-6e60-4fbd-92cd-174114f7b79a)
+
+>app.module.ts: è o módulo principal do app aqui fazemos as declarações dos componentes, importações de módulos externos, importar serviços e etc.
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/8fdbdd07-36db-46eb-af46-bb0f10ecde11)
 
 
