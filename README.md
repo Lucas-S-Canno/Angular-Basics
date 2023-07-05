@@ -138,4 +138,31 @@ obs: tbm é possivel usar só “template” e fazer o html dentro do arquivo TS
 
 ![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/8fdbdd07-36db-46eb-af46-bb0f10ecde11)
 
+<hr>
 
+<h3>Criando o primeiro componente</h3>
+
+<p>Para criar um componente usamos o comando “ng generate component nome-do-componente” ou para simplificar “ng g c nome-do-componente”.</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/a387213a-ed39-4ca7-afd0-aaa04b5f07f6)
+
+<p>Ele pode perguntar se você deseja compartilhar dados anônimos, vai de você se quer compartilhar ou não (Y ou N)</p>
+
+<p>O angular criara o componente com o basico para rodar ele, incluindo os arquivos html, scss e ts (obs. os arquivos .spec.ts é um arquivo que é usado somente para criar testes, não irei usar nesse momento)</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/1484e9f5-943d-4df5-9d1a-f1f33f127ca6)
+
+<p>Usando essa forma para criar o componente o angular inclusive faz as declarações necessárias para usar esse componente, como da pra ver o componente foi declarado no app.module.ts</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/cede8214-0342-48d3-8f03-f0dfb4e843eb)
+
+<p>Para usar o novo componente, temos que chama-lo aonde queremos usar, no caso vamos usar no app.component para ver mos na tela, para chamar usamos o nome descrito no “selector” do arquivo .ts do componente, dessa forma:</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/68e9ab83-6559-4582-a465-94caee5c03c6)
+
+<p>E para testarmos, usamos o comando “ng serve” que irá rodar o projeto, ou para simplificar “ng s”, podendo usar “ng s -o”, nesse caso a opção -o irá automaticamente abrir o navegador padrão do computador</p>
+<p>Ao iniciar o projeto, dará a mensagem de que foi compilado com sucesso  e irá abrir no browser no link mostrado, geralmente htp://localhost:4200/</p>
+<p>O básico que vem no componente é simplesmente o texto “nome-do-componente works”
+Como foi chamado no app.componente, aparecerá diretamente na primeira página e podemos ver que tudo está certo com ele aparecendo na tela</p>
+
+![image](https://github.com/Lucas-S-Canno/Angular-Basics/assets/56321276/da79b625-7f15-4449-8b41-fd4954a62709)
